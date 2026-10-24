@@ -1,0 +1,208 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="B2B Bihar ground handling for travel agents and tour operators. Hotel, transport, guide and group arrangements for Bodh Gaya, Rajgir, Nalanda, and Vishali and Keshariya.">
+  <meta name="theme-color" content="#123630">
+  <title>Uruvela Journeys | B2B Ground Handling</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Playfair+Display:wght@600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="{% static 'css/style.css' %}">
+</head>
+<body data-gallery-url="{% url 'gallery_manifest' %}">
+  <div class="topbar">
+    <div class="container topbar-inner">
+      <span>For travel agents &amp; tour operators only</span>
+      <a href="mailto:Operartions@uruvelajourneys.com">Operartions@uruvelajourneys.com</a>
+    </div>
+  </div>
+
+  <header class="site-header" id="top">
+    <div class="container nav-wrap">
+      <a class="brand" href="#top" aria-label="Uruvela Journeys home">
+        <span class="brand-mark brand-logo" role="img" aria-label="Uruvela Journeys leaf mark"></span>
+        <span class="brand-copy"><span class="brand-name">Uruvela Journeys</span><strong>Sacred Magadha Ground Operations</strong></span>
+      </a>
+      <button class="nav-toggle" aria-expanded="false" aria-controls="main-nav" aria-label="Open menu">
+        <span></span><span></span><span></span>
+      </button>
+      <nav id="main-nav" class="main-nav">
+        <a href="#destinations">Destinations</a>
+        <a href="#services">Our Services</a>
+        <a href="#why-us">Why Partner</a>
+        <a href="#enquiry" class="nav-cta">Get B2B Quote <span>→</span></a>
+      </nav>
+    </div>
+  </header>
+
+  <main>
+    <section class="hero">
+      <div class="hero-overlay"></div>
+      <div class="container hero-content">
+        <p class="eyebrow light"><span></span> Bihar's trusted local partner</p>
+        <h1>Make Bihar journeys<br><em>effortless.</em></h1>
+        <p class="hero-copy">Reliable B2B ground handling for agents planning Buddhist, heritage and group travel across Bihar.</p>
+        <div class="hero-actions">
+          <a class="button button-primary" href="#enquiry">Request B2B Quote <span>→</span></a>
+          <a class="hero-link" href="#destinations">Explore destinations <span>↓</span></a>
+        </div>
+        <div class="hero-stats" aria-label="B2B services">
+          <div><strong>FIT &amp; Groups</strong><span>Flexible arrangements</span></div>
+          <div><strong>Local team</strong><span>On-ground support</span></div>
+          <div><strong>Fast quotes</strong><span>For your requirements</span></div>
+        </div>
+      </div>
+      <div class="hero-scroll">Scroll to discover <span></span></div>
+    </section>
+
+    <section class="intro section">
+      <div class="container intro-grid">
+        <div>
+          <p class="eyebrow"><span></span> Built for the travel trade</p>
+          <h2>Your Bihar<br>operations partner.</h2>
+        </div>
+        <div class="intro-copy">
+          <p>We help travel agents and tour operators deliver well-planned Bihar itineraries without the operational stress. From hotel blocks and transport to guides and complete group coordination, our local team keeps every detail moving.</p>
+          <a class="text-link" href="#enquiry">Tell us what you need <span>→</span></a>
+        </div>
+      </div>
+    </section>
+
+    <section class="destinations section section-sand" id="destinations">
+      <div class="container">
+        <div class="section-heading">
+          <div>
+            <p class="eyebrow"><span></span> Bihar highlights</p>
+            <h2>Destinations we handle.</h2>
+          </div>
+          <p>Build a focused circuit or combine destinations into a fully tailored agent itinerary.</p>
+        </div>
+        <div class="destination-grid">
+          <article class="destination-card">
+            <div class="destination-gallery" data-destination="bodh-gaya"><img class="is-active" src="https://images.unsplash.com/photo-1588416499018-d8c621bdbe02?auto=format&amp;fit=crop&amp;w=1200&amp;q=85" alt="Temple landscape representing Bodh Gaya" loading="lazy"></div>
+            <div class="card-shade"></div>
+            <div class="destination-content"><p>01</p><h3>Bodh Gaya</h3><span>Mahabodhi Temple &amp; Buddhist pilgrimage</span></div>
+          </article>
+          <article class="destination-card">
+            <div class="destination-gallery" data-destination="rajgir"><img class="is-active" src="https://images.unsplash.com/photo-1609920658906-8223bd289001?auto=format&amp;fit=crop&amp;w=900&amp;q=85" alt="Buddhist stupa representing Rajgir" loading="lazy"></div>
+            <div class="card-shade"></div>
+            <div class="destination-content"><p>02</p><h3>Rajgir</h3><span>Peace pagoda, ropeway &amp; hills</span></div>
+          </article>
+          <article class="destination-card">
+            <div class="destination-gallery" data-destination="nalanda"><img class="is-active" src="https://images.unsplash.com/photo-1609921212029-bb5a28e60960?auto=format&amp;fit=crop&amp;w=900&amp;q=85" alt="Ancient ruins representing Nalanda" loading="lazy"></div>
+            <div class="card-shade"></div>
+            <div class="destination-content"><p>03</p><h3>Nalanda</h3><span>Ancient learning &amp; heritage</span></div>
+          </article>
+          <article class="destination-card">
+            <div class="destination-gallery" data-destination="vaishali &amp; Kesariya"><img class="is-active" src="https://images.unsplash.com/photo-1585136916121-2a059e6f8bd5?auto=format&amp;fit=crop&amp;w=900&amp;q=85" alt="Buddhist heritage representing Vishali and Keshariya" loading="lazy"></div>
+            <div class="card-shade"></div>
+            <div class="destination-content"><p>04</p><h3>Vishali and Keshariya</h3><span>Heritage sites &amp; the monumental Kesariya Stupa</span></div>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section class="services section" id="services">
+      <div class="container services-grid">
+        <div class="services-intro">
+          <p class="eyebrow"><span></span> One local team</p>
+          <h2>Everything your itinerary needs.</h2>
+          <p>Request individual services or let us coordinate the full ground arrangement for your client.</p>
+          <a class="button button-outline" href="#enquiry">Get a custom quote <span>→</span></a>
+        </div>
+        <div class="service-list">
+          <article><span class="service-number">01</span><div><h3>Hotels &amp; meals</h3><p>Room blocks, meal plans and dependable local options for every group size.</p></div><span class="arrow">↗</span></article>
+          <article><span class="service-number">02</span><div><h3>Transport</h3><p>Cars, tempo travellers and coaches with experienced local drivers.</p></div><span class="arrow">↗</span></article>
+          <article><span class="service-number">03</span><div><h3>Guides &amp; experiences</h3><p>Knowledgeable guides and meaningful site experiences for your itinerary.</p></div><span class="arrow">↗</span></article>
+          <article><span class="service-number">04</span><div><h3>Group coordination</h3><p>On-ground support for pilgrim groups, institutions and tour series.</p></div><span class="arrow">↗</span></article>
+        </div>
+      </div>
+    </section>
+
+    <section class="quote-band">
+      <div class="container quote-band-content">
+        <p class="eyebrow light"><span></span> Built around your guest</p>
+        <h2>FIT, group departure or a<br>complete Bihar circuit.</h2>
+        <a class="button button-light" href="#enquiry">Plan with us <span>→</span></a>
+      </div>
+    </section>
+
+    <section class="why section" id="why-us">
+      <div class="container why-grid">
+        <div>
+          <p class="eyebrow"><span></span> Why partners choose us</p>
+          <h2>A smooth experience<br>for you and your guests.</h2>
+        </div>
+        <div class="benefits">
+          <div><span>01</span><h3>Local knowledge</h3><p>A team focused on the routes, stays and logistics that matter in Bihar.</p></div>
+          <div><span>02</span><h3>Clear B2B communication</h3><p>Share a requirement, receive a practical response, and stay updated.</p></div>
+          <div><span>03</span><h3>Flexible planning</h3><p>Tailor itineraries, hotel category, transport and services around each group.</p></div>
+          <div><span>04</span><h3>Responsive support</h3><p>One dependable point of contact before and during your tour operation.</p></div>
+        </div>
+      </div>
+    </section>
+
+    <section class="enquiry section section-sand" id="enquiry">
+      <div class="container enquiry-layout">
+        <div class="enquiry-info">
+          <p class="eyebrow"><span></span> Start a conversation</p>
+          <h2>Send your tour requirement.</h2>
+          <p>Tell us what your client needs. Our B2B team will review the details and get back to you with the next steps.</p>
+          <div class="contact-note">
+            <span class="contact-icon">✦</span>
+            <div><strong>For travel trade enquiries</strong><small>We work with travel agents and tour operators.</small></div>
+          </div>
+          <a class="whatsapp-link" href="https://wa.me/917009068621?text=Hello%2C%20I%20need%20a%20B2B%20Bihar%20tour%20quote." target="_blank" rel="noopener">WhatsApp our B2B desk <span>↗</span></a>
+        </div>
+        <div class="form-card">
+          {% if messages %}
+            {% for message in messages %}
+              <div class="alert {{ message.tags }}" role="alert">{{ message }}</div>
+            {% endfor %}
+          {% endif %}
+          <form method="post" id="agent-form" novalidate>
+            {% csrf_token %}
+            {% if form.non_field_errors %}<div class="field-error">{{ form.non_field_errors }}</div>{% endif %}
+            <div class="form-grid two-col">
+              <div class="field"><label for="{{ form.name.id_for_label }}">Your name <b>*</b></label>{{ form.name }}{{ form.name.errors }}</div>
+              <div class="field"><label for="{{ form.company_name.id_for_label }}">Agency / company <b>*</b></label>{{ form.company_name }}{{ form.company_name.errors }}</div>
+              <div class="field"><label for="{{ form.email.id_for_label }}">Business email <b>*</b></label>{{ form.email }}{{ form.email.errors }}</div>
+              <div class="field"><label for="{{ form.phone.id_for_label }}">Phone / WhatsApp <b>*</b></label>{{ form.phone }}{{ form.phone.errors }}</div>
+              <div class="field full-width"><label for="{{ form.city_country.id_for_label }}">Your city &amp; country <b>*</b></label>{{ form.city_country }}{{ form.city_country.errors }}</div>
+            </div>
+            <div class="form-section-label">Tour requirement</div>
+            <div class="form-grid two-col">
+              <div class="field"><label for="{{ form.travel_start_date.id_for_label }}">Travel start date <b>*</b></label>{{ form.travel_start_date }}{{ form.travel_start_date.errors }}</div>
+              <div class="field"><label for="{{ form.travel_end_date.id_for_label }}">Travel end date</label>{{ form.travel_end_date }}{{ form.travel_end_date.errors }}</div>
+              <div class="field"><label for="{{ form.guests.id_for_label }}">Number of guests <b>*</b></label>{{ form.guests }}{{ form.guests.errors }}</div>
+              <div class="field"><label for="{{ form.tour_type.id_for_label }}">Tour type <b>*</b></label>{{ form.tour_type }}{{ form.tour_type.errors }}</div>
+            </div>
+            <div class="field destination-field"><label>Destinations required <b>*</b></label><div class="checkboxes">{{ form.destinations }}</div>{{ form.destinations.errors }}</div>
+            <div class="form-grid two-col">
+              <div class="field"><label for="{{ form.hotel_category.id_for_label }}">Hotel category <b>*</b></label>{{ form.hotel_category }}{{ form.hotel_category.errors }}</div>
+              <div class="field"><label for="{{ form.transport.id_for_label }}">Transport needed <b>*</b></label>{{ form.transport }}{{ form.transport.errors }}</div>
+              <div class="field full-width"><label for="{{ form.requirements.id_for_label }}">Requirement details <b>*</b></label>{{ form.requirements }}{{ form.requirements.errors }}</div>
+            </div>
+            <div class="consent">{{ form.consent_given }}<label for="{{ form.consent_given.id_for_label }}">I agree to be contacted about this B2B enquiry. <b>*</b></label></div>{{ form.consent_given.errors }}
+            <button class="button button-primary form-submit" type="submit">Request B2B Quote <span>→</span></button>
+            <p class="form-footnote">We use these details only to respond to your enquiry.</p>
+          </form>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container footer-grid">
+      <div><a class="brand footer-brand" href="#top"><span class="brand-mark brand-logo" role="img" aria-label="Uruvela Journeys leaf mark"></span><span class="brand-copy"><span class="brand-name">Uruvela Journeys</span><strong>Sacred Magadha Ground Operations</strong></span></a><p>Local B2B ground handling for Bihar's most meaningful journeys.</p></div>
+      <div><p class="footer-label">Navigate</p><a href="#destinations">Destinations</a><a href="#services">Services</a><a href="#why-us">Why partner</a></div>
+      <div><p class="footer-label">Contact</p><a href="mailto:Operartions@uruvelajourneys.com">Operartions@uruvelajourneys.com</a><a href="https://wa.me/917009068621" target="_blank" rel="noopener">+91 70090 68621</a><a href="#enquiry">Request a quote</a></div>
+    </div>
+    <div class="container footer-bottom"><span>© {% now "Y" %} Uruvela Journeys. All rights reserved.</span><span>For travel agents &amp; tour operators.</span></div>
+  </footer>
+  <script src="{% static 'js/site.js' %}"></script>
+</body>
+</html>
